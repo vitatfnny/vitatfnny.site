@@ -1,0 +1,158 @@
+/* DEFAULT CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 200vh;
+    font-family: 'Open Sans';
+}
+
+.container {
+    max-width: 1140px;
+    height: auto;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.clear {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* NAVBAR */
+
+nav {
+    padding: 15px 0px;
+    height: 130px;
+    margin-bottom: 5px;
+    background-color: #fff;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+}
+
+.bahasa {
+    position: absolute;
+    right: 130px;
+    top: 20px;
+}
+
+.bahasa a {
+    float: left;
+    margin-left: 8px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin-top: 5px;
+    padding: 0;
+    overflow: hidden;
+}
+  
+nav li {
+    float: left;
+    padding: 4px 5px 4px 5px;
+    border-left: 1px solid #bfbfbf;
+}
+
+
+nav .navbar {
+    margin-left: 280px;
+}
+
+nav li a {
+    padding: 4px 20px 4px 5px;
+    text-transform: uppercase;
+    font-size: 13px;
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 10px;
+}
+  
+nav li a:hover {
+    color: #CA7D71;
+}
+
+nav .search {
+    position: absolute;
+    top: 70px;
+    right: 250px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    background: url(../img/search.png) right no-repeat;
+    padding: 10px 30px 10px 10px;
+    cursor: pointer;
+    color: #ffc20f;
+    size: 14px;
+}
+
+  /* FOOTER */
+footer {
+    padding: 20px 50px;
+    width: 85%;
+    height: 200px;
+    margin-top: 100px;
+    margin-left: 100px;
+    /* margin-top: -50px; */
+    background-color: #ffc20f;
+    color: #000;
+    font-size: 13px;
+}
+
+footer .follow_us {
+    margin-left: 40px;
+}
+footer .official_store {
+    margin-left: 40px;
+}
+
+
+footer ul li {
+    list-style: none;
+    margin-top:5px;
+}
+footer ul li a {
+    text-decoration: none;
+    color: #000;
+  }
+footer ul li a:hover {
+    text-decoration: underline;
+    color: #000;
+  }
+  footer div {
+    float: left;
+    width: 200px;
+  }
+
+  footer .official_store {
+    width: 22%;
+  }
+
+  footer .official_store ul {
+    display: block;
+  }
+
+  footer .official_store ul li {
+   float: left;
+   height: 30px;
+  }
+
+  footer .official_store img {
+    width: 80px;
+  }
+
+  main {
+    padding-top: 180px;
+    text-align: center;
+
+  }
+
+  
